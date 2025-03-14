@@ -18,21 +18,18 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
     text-decoration: none;
 }
 .logo-web {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 .nav-list .nav-link {
     text-decoration: none;
     font-weight: 500;
     color: #2e2f42;
 }
-.nav-link:hover {
-    color: #404bbf;
-}
-.nav-link:focus {
+.nav-link:hover, .nav-link:focus  {
     color: #404bbf;
 }
 .contact-info {
@@ -43,11 +40,10 @@ ul {
     color: #434455;
     cursor: pointer;
 }
-.contact-link:hover .contact-link:focus {
+.contact-link:hover, .contact-link:focus  {
     color: #404bbf;
 }
-h1,
-h2 {
+h1, h2 {
     text-align: center;
     font-weight: 700;
     color: #2e2f42;
@@ -71,7 +67,7 @@ h2 {
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.btn:hover .btn:focus{
+.btn:hover, .btn:focus{
     background-color: #404bbf;
 }
 .section-title {
@@ -83,21 +79,21 @@ h2 {
     color: #2e2f42;
     
 }
-.features-title .team-name {
+.features-title, .team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.features-text .team-role {
+.features-text, .team-role {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.team-name .team-role {
+.team-name, .team-role {
     align-items: center;
 }
 .team {
@@ -112,9 +108,9 @@ h2 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #f4f4fd;
+    color: #4d5ae5 ;
 }
-.footer-text {
+.footer-text, .logo-web-footer  {
     color: #f4f4fd;
 }
 .footer {
